@@ -5,6 +5,7 @@
  */
 package main;
 
+
 /**
  *
  * @author usuario
@@ -16,6 +17,10 @@ public class AMC22017 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Archivo datafile = new Archivo();
+        System.out.println("\nCálculo del trio de puntos + cercano\n\n\n");
+        System.out.println("Introduzca la ruta absoluta del archivo a analizar \n");
+        datafile.ruta=datafile.leerRuta();
     }
     
 }

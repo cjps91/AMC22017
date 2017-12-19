@@ -21,7 +21,7 @@ public class AMC22017 {
         System.out.println("\nCálculo del trio de puntos + cercano\n\n\n");
         System.out.println("Introduzca la ruta absoluta del archivo a analizar \n");
         //datafile.ruta=datafile.leerRuta();
-        datafile.ruta="/Users/carlos/NetBeansProjects/AMC22017/datos/berlin52.tsp/berlin52.tsp"; //Fijado este para las 
+        datafile.ruta="/Users/carlos/NetBeansProjects/AMC22017/datos/berlin52.tsp/berlin52.tsp"; //Fijado este para las pruebas
         System.out.println(datafile.ruta + " es la ruta del archivo");
     }
     

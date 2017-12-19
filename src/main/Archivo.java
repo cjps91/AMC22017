@@ -24,12 +24,6 @@ public class Archivo {
     
     void leerArchivo(int matrizDatos[][], String ruta) //Para leer los datos del archivo especificado
     { 
-       Scanner iterate = new Scanner(ruta);
-        int numLines = 0;
-        while (iterate.hasNextLine()) {
-            String currLine = iterate.nextLine();
-            numLines++;
-        }
         
     }
     
